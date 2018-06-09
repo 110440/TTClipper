@@ -1,5 +1,5 @@
 //
-//  TTImageCropViewController.h
+//  TTImageClipperViewController.h
 //  CroppingImage
 //
 //  Created by tanson on 2018/6/4.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTImageCropViewController : UIViewController
+@interface TTImageClipperViewController : UIViewController
 
 @property (nonatomic,assign) CGSize cropSize;
 @property (nonatomic,strong) UIImage *image;

@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TTImageCropViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TTImageClipperViewController">
             <connections>
                 <outlet property="coverView" destination="8o4-BG-xx1" id="2Zt-2p-bb5"/>
                 <outlet property="rectView" destination="RKJ-di-8sW" id="pJ7-wy-edo"/>

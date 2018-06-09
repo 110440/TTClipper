@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4635A4520CBA24400EEDFF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A4420CBA24400EEDFF7 /* AppDelegate.m */; };
-		D4635A4820CBA24400EEDFF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A4720CBA24400EEDFF7 /* ViewController.m */; };
-		D4635A4B20CBA24400EEDFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4635A4920CBA24400EEDFF7 /* Main.storyboard */; };
-		D4635A4D20CBA24500EEDFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4635A4C20CBA24500EEDFF7 /* Assets.xcassets */; };
-		D4635A5020CBA24500EEDFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4635A4E20CBA24500EEDFF7 /* LaunchScreen.storyboard */; };
-		D4635A5320CBA24500EEDFF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A5220CBA24500EEDFF7 /* main.m */; };
-		D4635A5D20CBA25E00EEDFF7 /* TTImageCropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4635A5A20CBA25E00EEDFF7 /* TTImageCropViewController.xib */; };
-		D4635A5E20CBA25E00EEDFF7 /* TTImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A5C20CBA25E00EEDFF7 /* TTImageCropViewController.m */; };
+		D4635A6D20CBA76A00EEDFF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A6C20CBA76A00EEDFF7 /* AppDelegate.m */; };
+		D4635A7020CBA76A00EEDFF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A6F20CBA76A00EEDFF7 /* ViewController.m */; };
+		D4635A7320CBA76A00EEDFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4635A7120CBA76A00EEDFF7 /* Main.storyboard */; };
+		D4635A7520CBA76B00EEDFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4635A7420CBA76B00EEDFF7 /* Assets.xcassets */; };
+		D4635A7820CBA76B00EEDFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4635A7620CBA76B00EEDFF7 /* LaunchScreen.storyboard */; };
+		D4635A7B20CBA76B00EEDFF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A7A20CBA76B00EEDFF7 /* main.m */; };
+		D4635A8520CBA78B00EEDFF7 /* TTImageClipperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4635A8320CBA78B00EEDFF7 /* TTImageClipperViewController.xib */; };
+		D4635A8620CBA78B00EEDFF7 /* TTImageClipperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4635A8420CBA78B00EEDFF7 /* TTImageClipperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4635A4020CBA24300EEDFF7 /* TTImageCroper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTImageCroper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4635A4320CBA24400EEDFF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D4635A4420CBA24400EEDFF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4635A4620CBA24400EEDFF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4635A4720CBA24400EEDFF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D4635A4A20CBA24400EEDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D4635A4C20CBA24500EEDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4635A4F20CBA24500EEDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D4635A5120CBA24500EEDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4635A5220CBA24500EEDFF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4635A5A20CBA25E00EEDFF7 /* TTImageCropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTImageCropViewController.xib; sourceTree = "<group>"; };
-		D4635A5B20CBA25E00EEDFF7 /* TTImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageCropViewController.h; sourceTree = "<group>"; };
-		D4635A5C20CBA25E00EEDFF7 /* TTImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageCropViewController.m; sourceTree = "<group>"; };
+		D4635A6820CBA76A00EEDFF7 /* TTImageClipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTImageClipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4635A6B20CBA76A00EEDFF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4635A6C20CBA76A00EEDFF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4635A6E20CBA76A00EEDFF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4635A6F20CBA76A00EEDFF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4635A7220CBA76A00EEDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4635A7420CBA76B00EEDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4635A7720CBA76B00EEDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4635A7920CBA76B00EEDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4635A7A20CBA76B00EEDFF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4635A8220CBA78B00EEDFF7 /* TTImageClipperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageClipperViewController.h; sourceTree = "<group>"; };
+		D4635A8320CBA78B00EEDFF7 /* TTImageClipperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTImageClipperViewController.xib; sourceTree = "<group>"; };
+		D4635A8420CBA78B00EEDFF7 /* TTImageClipperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageClipperViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4635A3D20CBA24300EEDFF7 /* Frameworks */ = {
+		D4635A6520CBA76A00EEDFF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,84 +44,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4635A3720CBA24300EEDFF7 = {
+		D4635A5F20CBA76A00EEDFF7 = {
 			isa = PBXGroup;
 			children = (
-				D4635A4220CBA24300EEDFF7 /* TTImageCroper */,
-				D4635A4120CBA24300EEDFF7 /* Products */,
+				D4635A6A20CBA76A00EEDFF7 /* TTImageClipper */,
+				D4635A6920CBA76A00EEDFF7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D4635A4120CBA24300EEDFF7 /* Products */ = {
+		D4635A6920CBA76A00EEDFF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4635A4020CBA24300EEDFF7 /* TTImageCroper.app */,
+				D4635A6820CBA76A00EEDFF7 /* TTImageClipper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4635A4220CBA24300EEDFF7 /* TTImageCroper */ = {
+		D4635A6A20CBA76A00EEDFF7 /* TTImageClipper */ = {
 			isa = PBXGroup;
 			children = (
-				D4635A5920CBA25600EEDFF7 /* New Group */,
-				D4635A4320CBA24400EEDFF7 /* AppDelegate.h */,
-				D4635A4420CBA24400EEDFF7 /* AppDelegate.m */,
-				D4635A4620CBA24400EEDFF7 /* ViewController.h */,
-				D4635A4720CBA24400EEDFF7 /* ViewController.m */,
-				D4635A4920CBA24400EEDFF7 /* Main.storyboard */,
-				D4635A4C20CBA24500EEDFF7 /* Assets.xcassets */,
-				D4635A4E20CBA24500EEDFF7 /* LaunchScreen.storyboard */,
-				D4635A5120CBA24500EEDFF7 /* Info.plist */,
-				D4635A5220CBA24500EEDFF7 /* main.m */,
+				D4635A8120CBA78B00EEDFF7 /* Clipper */,
+				D4635A6B20CBA76A00EEDFF7 /* AppDelegate.h */,
+				D4635A6C20CBA76A00EEDFF7 /* AppDelegate.m */,
+				D4635A6E20CBA76A00EEDFF7 /* ViewController.h */,
+				D4635A6F20CBA76A00EEDFF7 /* ViewController.m */,
+				D4635A7120CBA76A00EEDFF7 /* Main.storyboard */,
+				D4635A7420CBA76B00EEDFF7 /* Assets.xcassets */,
+				D4635A7620CBA76B00EEDFF7 /* LaunchScreen.storyboard */,
+				D4635A7920CBA76B00EEDFF7 /* Info.plist */,
+				D4635A7A20CBA76B00EEDFF7 /* main.m */,
 			);
-			path = TTImageCroper;
+			path = TTImageClipper;
 			sourceTree = "<group>";
 		};
-		D4635A5920CBA25600EEDFF7 /* New Group */ = {
+		D4635A8120CBA78B00EEDFF7 /* Clipper */ = {
 			isa = PBXGroup;
 			children = (
-				D4635A5B20CBA25E00EEDFF7 /* TTImageCropViewController.h */,
-				D4635A5C20CBA25E00EEDFF7 /* TTImageCropViewController.m */,
-				D4635A5A20CBA25E00EEDFF7 /* TTImageCropViewController.xib */,
+				D4635A8220CBA78B00EEDFF7 /* TTImageClipperViewController.h */,
+				D4635A8320CBA78B00EEDFF7 /* TTImageClipperViewController.xib */,
+				D4635A8420CBA78B00EEDFF7 /* TTImageClipperViewController.m */,
 			);
-			path = "New Group";
+			path = Clipper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4635A3F20CBA24300EEDFF7 /* TTImageCroper */ = {
+		D4635A6720CBA76A00EEDFF7 /* TTImageClipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4635A5620CBA24500EEDFF7 /* Build configuration list for PBXNativeTarget "TTImageCroper" */;
+			buildConfigurationList = D4635A7E20CBA76B00EEDFF7 /* Build configuration list for PBXNativeTarget "TTImageClipper" */;
 			buildPhases = (
-				D4635A3C20CBA24300EEDFF7 /* Sources */,
-				D4635A3D20CBA24300EEDFF7 /* Frameworks */,
-				D4635A3E20CBA24300EEDFF7 /* Resources */,
+				D4635A6420CBA76A00EEDFF7 /* Sources */,
+				D4635A6520CBA76A00EEDFF7 /* Frameworks */,
+				D4635A6620CBA76A00EEDFF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TTImageCroper;
-			productName = TTImageCroper;
-			productReference = D4635A4020CBA24300EEDFF7 /* TTImageCroper.app */;
+			name = TTImageClipper;
+			productName = TTImageClipper;
+			productReference = D4635A6820CBA76A00EEDFF7 /* TTImageClipper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D4635A3820CBA24300EEDFF7 /* Project object */ = {
+		D4635A6020CBA76A00EEDFF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = tanson;
 				TargetAttributes = {
-					D4635A3F20CBA24300EEDFF7 = {
+					D4635A6720CBA76A00EEDFF7 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = D4635A3B20CBA24300EEDFF7 /* Build configuration list for PBXProject "TTImageCroper" */;
+			buildConfigurationList = D4635A6320CBA76A00EEDFF7 /* Build configuration list for PBXProject "TTImageClipper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,57 +129,57 @@
 				en,
 				Base,
 			);
-			mainGroup = D4635A3720CBA24300EEDFF7;
-			productRefGroup = D4635A4120CBA24300EEDFF7 /* Products */;
+			mainGroup = D4635A5F20CBA76A00EEDFF7;
+			productRefGroup = D4635A6920CBA76A00EEDFF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4635A3F20CBA24300EEDFF7 /* TTImageCroper */,
+				D4635A6720CBA76A00EEDFF7 /* TTImageClipper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4635A3E20CBA24300EEDFF7 /* Resources */ = {
+		D4635A6620CBA76A00EEDFF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4635A5D20CBA25E00EEDFF7 /* TTImageCropViewController.xib in Resources */,
-				D4635A5020CBA24500EEDFF7 /* LaunchScreen.storyboard in Resources */,
-				D4635A4D20CBA24500EEDFF7 /* Assets.xcassets in Resources */,
-				D4635A4B20CBA24400EEDFF7 /* Main.storyboard in Resources */,
+				D4635A8520CBA78B00EEDFF7 /* TTImageClipperViewController.xib in Resources */,
+				D4635A7820CBA76B00EEDFF7 /* LaunchScreen.storyboard in Resources */,
+				D4635A7520CBA76B00EEDFF7 /* Assets.xcassets in Resources */,
+				D4635A7320CBA76A00EEDFF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4635A3C20CBA24300EEDFF7 /* Sources */ = {
+		D4635A6420CBA76A00EEDFF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4635A5E20CBA25E00EEDFF7 /* TTImageCropViewController.m in Sources */,
-				D4635A4820CBA24400EEDFF7 /* ViewController.m in Sources */,
-				D4635A5320CBA24500EEDFF7 /* main.m in Sources */,
-				D4635A4520CBA24400EEDFF7 /* AppDelegate.m in Sources */,
+				D4635A8620CBA78B00EEDFF7 /* TTImageClipperViewController.m in Sources */,
+				D4635A7020CBA76A00EEDFF7 /* ViewController.m in Sources */,
+				D4635A7B20CBA76B00EEDFF7 /* main.m in Sources */,
+				D4635A6D20CBA76A00EEDFF7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4635A4920CBA24400EEDFF7 /* Main.storyboard */ = {
+		D4635A7120CBA76A00EEDFF7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4635A4A20CBA24400EEDFF7 /* Base */,
+				D4635A7220CBA76A00EEDFF7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D4635A4E20CBA24500EEDFF7 /* LaunchScreen.storyboard */ = {
+		D4635A7620CBA76B00EEDFF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4635A4F20CBA24500EEDFF7 /* Base */,
+				D4635A7720CBA76B00EEDFF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D4635A5420CBA24500EEDFF7 /* Debug */ = {
+		D4635A7C20CBA76B00EEDFF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		D4635A5520CBA24500EEDFF7 /* Release */ = {
+		D4635A7D20CBA76B00EEDFF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,33 +297,33 @@
 			};
 			name = Release;
 		};
-		D4635A5720CBA24500EEDFF7 /* Debug */ = {
+		D4635A7F20CBA76B00EEDFF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TTImageCroper/Info.plist;
+				INFOPLIST_FILE = TTImageClipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanson.TTImageCroper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanson.TTImageClipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D4635A5820CBA24500EEDFF7 /* Release */ = {
+		D4635A8020CBA76B00EEDFF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TTImageCroper/Info.plist;
+				INFOPLIST_FILE = TTImageClipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanson.TTImageCroper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanson.TTImageClipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -332,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4635A3B20CBA24300EEDFF7 /* Build configuration list for PBXProject "TTImageCroper" */ = {
+		D4635A6320CBA76A00EEDFF7 /* Build configuration list for PBXProject "TTImageClipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4635A5420CBA24500EEDFF7 /* Debug */,
-				D4635A5520CBA24500EEDFF7 /* Release */,
+				D4635A7C20CBA76B00EEDFF7 /* Debug */,
+				D4635A7D20CBA76B00EEDFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4635A5620CBA24500EEDFF7 /* Build configuration list for PBXNativeTarget "TTImageCroper" */ = {
+		D4635A7E20CBA76B00EEDFF7 /* Build configuration list for PBXNativeTarget "TTImageClipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4635A5720CBA24500EEDFF7 /* Debug */,
-				D4635A5820CBA24500EEDFF7 /* Release */,
+				D4635A7F20CBA76B00EEDFF7 /* Debug */,
+				D4635A8020CBA76B00EEDFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D4635A3820CBA24300EEDFF7 /* Project object */;
+	rootObject = D4635A6020CBA76A00EEDFF7 /* Project object */;
 }

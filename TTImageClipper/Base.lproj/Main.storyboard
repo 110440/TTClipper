@@ -18,33 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1QH-Zn-rjw">
-                                <rect key="frame" x="-12" y="72" width="400" height="300"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="0od-Ef-K4h"/>
-                                    <constraint firstAttribute="width" constant="400" id="ZM1-Wn-WD5"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFN-7n-aj7">
-                                <rect key="frame" x="179" y="596" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoZ-nK-rTn">
+                                <rect key="frame" x="164" y="581" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="open:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXr-dY-CBV"/>
+                                    <action selector="open:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOf-FP-sKz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="31H-OK-Jph">
+                                <rect key="frame" x="-12.5" y="50" width="400" height="300"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="76V-7G-QYH"/>
+                                    <constraint firstAttribute="width" constant="400" id="cl1-WT-nQ5"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1QH-Zn-rjw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="010-Sy-euD"/>
-                            <constraint firstItem="vFN-7n-aj7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="179" id="6YJ-F6-geV"/>
-                            <constraint firstItem="1QH-Zn-rjw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bzb-s8-vip"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vFN-7n-aj7" secondAttribute="bottom" constant="41" id="eNE-KY-2NL"/>
+                            <constraint firstItem="zoZ-nK-rTn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Vd-7U-U3I"/>
+                            <constraint firstItem="zoZ-nK-rTn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="561" id="FOO-RS-yUl"/>
+                            <constraint firstItem="31H-OK-Jph" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="NoO-bi-VtP"/>
+                            <constraint firstItem="31H-OK-Jph" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UuA-g1-plA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="1QH-Zn-rjw" id="uhB-Pk-QO2"/>
+                        <outlet property="imageView" destination="31H-OK-Jph" id="g3P-Ba-Nzv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,17 +1,17 @@
 //
-//  TTImageCropViewController.m
+//  TTImageClipperViewController.m
 //  CroppingImage
 //
 //  Created by tanson on 2018/6/4.
 //  Copyright © 2018年 刘志雄. All rights reserved.
 //
 
-#import "TTImageCropViewController.h"
+#import "TTImageClipperViewController.h"
 
 #define SCREENTRECT [UIScreen mainScreen].bounds
 #define SCREENTSIZE [UIScreen mainScreen].bounds.size
 
-@interface TTImageCropViewController ()<UIScrollViewDelegate>
+@interface TTImageClipperViewController ()<UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *rectView;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation TTImageCropViewController
+@implementation TTImageClipperViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
